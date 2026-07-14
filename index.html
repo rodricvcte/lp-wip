@@ -199,8 +199,13 @@
     .nav-links, .nav-cta .btn { display: none; }
     .ham { display: flex; }
     #hero { min-height: auto; align-items: flex-start; }
-    .hero-inner { flex-direction: column; padding: 130px 0 70px; gap: 44px; }
-    .hero-media { order: 2; }
+    .hero-inner { flex-direction: column; padding: 100px 0 70px; gap: 0; }
+    .hero-content { display: contents; }
+    .hero-h1 { order: 1; }
+    .hero-sub { order: 2; }
+    .hero-media { order: 3; margin-top: 0; margin-bottom: 28px; }
+    .hero-btns { order: 4; }
+    .hero-cred { order: 5; }
     .hero-video-card { max-width: 220px; }
   }
   @media (max-width: 640px) {
@@ -258,7 +263,6 @@
 
   <div class="hero-inner container">
     <div class="hero-content">
-      <span class="eyebrow fade-up" style="color:var(--accent-lt)">Agência WIP Digital</span>
       <h1 id="h1" class="hero-h1 fade-up d1">
         Seus pacientes te procuram no Google e só encontram suas redes sociais? <em>Eu resolvo isso.</em>
       </h1>
