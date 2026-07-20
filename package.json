@@ -1,0 +1,7 @@
+{
+  "name": "lp-wip",
+  "private": true,
+  "scripts": {
+    "build": "node scripts/build-sitemap.js"
+  }
+}
