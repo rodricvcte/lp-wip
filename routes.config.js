@@ -21,5 +21,21 @@ module.exports = {
       priority: 0.7,
       changefreq: 'monthly',
     },
+    {
+      slug: 'quanto-custa-uma-landing-page-para-dentista',
+      title: 'Quanto Custa uma Landing Page para Dentista em 2026',
+      description: 'O que influencia o preço de uma landing page para dentista, sinais de alerta de preço baixo demais e o que esperar de investimento em 2026.',
+      date: '2026-07-20',
+      priority: 0.7,
+      changefreq: 'monthly',
+    },
+    {
+      slug: 'por-que-meu-consultorio-nao-aparece-no-google',
+      title: 'Por Que Meu Consultório Não Aparece no Google? (Guia Completo)',
+      description: 'As razões mais comuns pelas quais um consultório odontológico não aparece na busca do Google, e o que de fato ajuda a mudar isso.',
+      date: '2026-07-20',
+      priority: 0.7,
+      changefreq: 'monthly',
+    },
   ],
 }
